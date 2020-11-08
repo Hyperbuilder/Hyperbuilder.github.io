@@ -1,9 +1,4 @@
-// Array of Objects
-// Code! Programming with p5.js
-// The Coding Train / Daniel Shiffman
-// https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html
-// https://youtu.be/fBqaA7zRO58
-// https://editor.p5js.org/codingtrain/sketches/1y_xfueO
+
 
 let bubbles = [];
 
@@ -19,15 +14,6 @@ function mouseDragged() {
 }
 function draw() {
   background(random(0, 255), random(0, 255), random(0, 255));
-  // textAlign(CENTER);
-  // fill(random(0, 255), random(0, 255), random(0, 255), random(0, 100));
-  // textSize(75);
-  // text("DONT DO DRUGS KIDDOS", window.innerWidth / 2, window.innerHeight / 2);
-  
-  for (let bubble of bubbles) {
-    bubble.move();
-    bubble.show();
-  }
 
   for (let i = 0; i < bubbles.length; i++) {
     bubbles[i].move();
